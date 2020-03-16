@@ -1,12 +1,13 @@
 import React from 'react';
-import Banner from '../components/Banner';
+import Header from '../components/Header';
+import Hello from '../components/Hello';
 
 export default function Profile() {
   return (
     <>
-      <Banner />
-      <div className="container">
-      </div>
+      <Header />
+      <Hello />
+      <hr />
     </>
   )
 }

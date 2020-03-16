@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto Mono, sans-serif;
+    font-family: "Roboto Mono", sans-serif;
     color: #333;
     background-color: rgb(252, 252, 253);
 }
@@ -13,12 +13,40 @@ body {
     display: none !important;
 }
 
-.banner {
+.section-header {
+  font-size: 2rem;
+  font-family: Roboto Mono,monospace;
+  line-height: 43px;
+  margin-bottom: 1.25rem;
+}
+
+.primary {
+  margin-top: 1rem;
+  background-color: #4a4a4a;
+  height: 50px;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 14px;
+  padding: 15px;
+  min-width: 170px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 600;
+  overflow: hidden;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #575757;
+    text-decoration: none;
+  }
+}
+
+.header {
   background-image: url('../images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 450px;
+  max-height: 480px;
   width: 100%;
+  margin-bottom: 4rem;
   &:before {
     content: "";
     position: absolute;
@@ -27,13 +55,13 @@ body {
     right: 0;
     z-index: 0;
     background: linear-gradient(54deg,rgba(0, 0, 0, 0.705) 34%,rgba(26, 25, 25, 0.425));
-    max-height: 450px;
+    max-height: 480px;
   }
+
   .main-details {
-    padding-top: 80px;
     .profile-img {
       position: relative;
-      top: 2.75rem;
+      top: 0.75rem;
       img {
         width: 88%;
         height: auto;
@@ -51,7 +79,7 @@ body {
         .name {
           font-size: 3rem;
           font-weight: 600;
-          font-family: Roboto Mono,monospace;
+          font-family: Roboto Mono, monospace;
         }
         .spec {
           letter-spacing: 0.5px;
@@ -66,11 +94,10 @@ body {
           color: #999;
           text-transform: uppercase;
           font-weight: 500;
-          font-size: 0.935rem;
+          font-size: 0.875rem;
         }
         .value {
-          letter-spacing: 1px;
-          font-weight: 300;
+          font-family: "Roboto Mono", monospace;
         }
       }
       .socials {
@@ -82,7 +109,8 @@ body {
           opacity: 0.75;
           margin-right: 0.75rem;
           img {
-            width: 1.5rem;
+            width: 20px;
+            height: 20px;
           }
           &:hover {
             text-decoration: none;
@@ -91,5 +119,38 @@ body {
         }
       }
     }
+  }
+}
+
+.nav-items {
+  z-index: 1;
+  margin: 2rem 0;
+  ul {
+    padding-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    li {
+      list-style: none;
+      line-height: 22px;
+      padding-right: 2.75rem;
+      font-size: 0.8125rem;
+      a {
+        color: #f9f9f9;
+        text-transform: uppercase;
+        transition: all 0.125s;
+        &:hover {
+          text-decoration: none;
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
+
+.hello {
+  padding: 2.5rem 0;
+  .description {
+    color: #555;
+    font-family: Roboto, sans-serif;
   }
 }

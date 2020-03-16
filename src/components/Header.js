@@ -1,18 +1,12 @@
 import React from 'react';
 import { profile } from '../constants/user';
+import NavBar from './NavBar';
 // Banner-bg by Jared Brashier on Unsplash
-export default function Banner() {
-  // renderData = (data) => {
-  //   return (
-  //     <div className="each-data">
-  //       <div className="name">location</div>
-  //       <div className="value">{profile.location}</div>
-  //     </div>
-  //   )
-  // }
+export default function Header() {
   console.log(profile);
   return (
-    <header className="banner">
+    <header className="header">
+      <NavBar />
       <div className="main-details">
         <div className="container">
           <div className="row">
