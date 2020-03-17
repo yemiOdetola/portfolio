@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Hello from '../components/Hello';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
+import Iwrite from '../components/Iwrite';
+import Contact from '../components/Contact';
 
 export default function Profile() {
   return (
@@ -12,6 +14,8 @@ export default function Profile() {
       <hr />
       <Experience />
       <Projects />
+      <Iwrite />
+      <Contact />
     </>
   )
 }

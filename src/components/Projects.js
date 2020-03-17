@@ -13,7 +13,7 @@ export default function Projects() {
         </div>
         <div className="row">
           {projects.map(project => (
-            <div className="col-md-6" key={project.title}>
+            <div className="col-md-4" key={project.title}>
               <a href="https://mmind.surge.sh" target="_blank" rel="noopener noreferrer">
                 <div className="project">
                   <img className="image" src={require(`../assets/images/${project.image}`)} alt={project.title} />

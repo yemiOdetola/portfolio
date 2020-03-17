@@ -15,6 +15,32 @@ const experiences = [
   }
 ]
 
+const iwrite = [
+  {
+    url: 'https://linkedin.com/in.yemiodetola',
+    image: 'devto.png'
+  },
+  {
+    url: 'https://linkedin.com/in.yemiodetola',
+    image: 'medium.png'
+  },
+]
+
+const reachme = [
+  {
+    url: 'https://twitter.com/yemiOtola',
+    image: 'tweetme.png'
+  },
+  {
+    url: 'mailto:yemiotola@gmail.com',
+    image: 'mailto.png'
+  },
+  {
+    url: 'https://instagram.com/yemiotola',
+    image: 'gram.png'
+  },
+]
+
 const projects = [
   {
     title: 'Mastermind',
@@ -53,4 +79,4 @@ const technologies = [
   'grunt.png', 'node.png', 'ionic.png', 'git.png',
 ]
 
-export { profile, technologies, experiences, projects };
+export { profile, technologies, experiences, projects, iwrite, reachme };

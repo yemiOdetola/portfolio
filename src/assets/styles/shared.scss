@@ -234,18 +234,7 @@ body {
     border-radius: 0.25rem;
     height: 400px;
     width: 100%;
-    // &:before {
-    //   content: "";
-    //   pointer-events: none;
-    //   display: block;
-    //   position: absolute;
-    //   top: 0px;
-    //   right: 0px;
-    //   bottom: 0px;
-    //   left: 0px;
-    //   z-index: -1;
-    //   background: radial-gradient(circle at center center, white 10%, whitesmoke 11%, whitesmoke 100%);
-    // }
+    margin: 1.5rem 0;
     &:after {
       content: "";
       pointer-events: none;
@@ -284,14 +273,37 @@ body {
       display: none;
       transition: all 0.125s ease-in-out;
       .title {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
         font-weight: 600;
         font-family: "Roboto Mono", monospace;
+        text-transform: uppercase;
       }
       .description {
         font-size: 0.935rem;
-        color: #FAFAFA;
+        color: rgb(218, 218, 218);
+        font-weight: 300;
       }
     }
   }
 }
+
+.iwrite {
+  padding-top: 2rem;
+  .blogs {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    .blog {
+      margin-right: 1.25rem;
+      img {
+        width: 80px;
+        height: auto;
+      }
+    }
+  }
+}
+
+// .contact {
+
+// }
