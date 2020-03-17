@@ -20,7 +20,7 @@ body {
   margin-bottom: 1.25rem;
 }
 
-.primary {
+.primary-btn {
   margin-top: 1rem;
   background-color: #4a4a4a;
   height: 50px;
@@ -44,7 +44,7 @@ body {
   background-image: url('../images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  max-height: 480px;
+  height: 480px;
   width: 100%;
   margin-bottom: 4rem;
   &:before {
@@ -147,10 +147,78 @@ body {
   }
 }
 
-.hello {
+.description {
+  color: #555;
+  font-family: Roboto, sans-serif;
+}
+
+.section-spacing {
   padding: 2.5rem 0;
-  .description {
-    color: #555;
-    font-family: Roboto, sans-serif;
+}
+
+.experiences {
+  .title {
+    text-transform: uppercase;
+    font-family: Roboto Mono, monospace;
+    color: #888;
+    letter-spacing: 5px;
+    line-height: 20px;
+    font-size: 0.935rem;
+    margin: 2rem 0;
+  }
+  .resumes {
+    .resume-block {
+      padding-left: 1.5rem;
+      padding-bottom: 2.75rem;
+      border-left: 2px solid #333;
+      &:last-child {
+        padding-bottom: 0;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 2px solid #333;
+        left: 10px;
+        background-color: #FFF;
+      }
+      .block-title {
+        text-transform: uppercase;
+        color: #4a4a4a;
+        font-size: 0.875rem;
+        line-height: 20px;
+        font-family: "Roboto Mono",monospace;
+        font-weight: 500;
+        padding-bottom: 0.25rem;
+      }
+      .block-date {
+        margin: 0;
+        font-family: Inconsolata,monospace;
+        font-size: 14px;
+        line-height: 20px;
+        color: #999;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  .tech-group {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    img {
+      width: 80px;
+      height: auto;
+      margin: 0.5rem;
+      border-radius: 0.5rem;
+      filter: grayscale(1);
+      transition: all 0.25s;
+      &:hover {
+        filter: grayscale(0);
+        cursor: pointer;
+      }
+    }
   }
 }

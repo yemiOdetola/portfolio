@@ -3,7 +3,6 @@ import { profile } from '../constants/user';
 import NavBar from './NavBar';
 // Banner-bg by Jared Brashier on Unsplash
 export default function Header() {
-  console.log(profile);
   return (
     <header className="header">
       <NavBar />

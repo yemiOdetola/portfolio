@@ -7,5 +7,13 @@ const profile = {
   image: 'yemiodetola.JPG'
 }
 
+const experiences = [
 
-export { profile };
+]
+
+const technologies = [
+  'javascript.png', 'typescript.svg', 'angular.png', 'reactjs.png', 'vuejs.png', 'redux.png', 'sass.svg',
+  'grunt.png', 'node.png', 'ionic.png', 'git.png',
+]
+
+export { profile, technologies, experiences };
