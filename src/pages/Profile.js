@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Hello from '../components/Hello';
 import Experience from '../components/Experience';
+import Projects from '../components/Projects';
 
 export default function Profile() {
   return (
@@ -10,6 +11,7 @@ export default function Profile() {
       <Hello />
       <hr />
       <Experience />
+      <Projects />
     </>
   )
 }

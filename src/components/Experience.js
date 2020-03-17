@@ -1,5 +1,5 @@
 import React from 'react';
-import { technologies } from '../constants/user';
+import { technologies, experiences } from '../constants/user';
 
 export default function Experience() {
   return (
@@ -15,11 +15,13 @@ export default function Experience() {
           <div className="col-md-8">
             <div className="resumes">
               <div className="title">Experiences</div>
-              <div className="resume-block">
-                <div className="block-title">Stack only</div>
-                <div className="block-date">August 2019 - Present</div>
-                <p className="block-highlight">Full stack developer</p>
-              </div>
+              {experiences.map(experience => (
+                <div className="resume-block" key={experience.date}>
+                  <div className="block-title">{experience.title}</div>
+                  <div className="block-date">{experience.date}</div>
+                  <p className="block-highlight">{experience.highlight}</p>
+                </div>
+              ))}
               <div className="resume-block">
                 <div className="block-title">Stack only</div>
                 <div className="block-date">August 2019 - Present</div>
