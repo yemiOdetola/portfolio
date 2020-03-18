@@ -6,7 +6,7 @@ export default function Contact() {
     <section className="iwrite section-spacing">
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12" id="contact">
             <div className="section-header">Contact_</div>
             <div className="blogs">
               {reachme.map(reach => (

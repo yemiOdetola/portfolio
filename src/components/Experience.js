@@ -6,7 +6,7 @@ export default function Experience() {
     <section className="experiences section-spacing">
       <div className="container">
         <div className="row">
-          <div className="col-md-10">
+          <div className="col-md-10" id="resume">
             <div className="section-header">Resume_</div>
             <p className="description">{profile.resume_desc}</p>
           </div>

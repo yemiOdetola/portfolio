@@ -1,12 +1,13 @@
 const profile = {
   name: 'Odetola Azeez_',
-  spec: 'frontend developer, Javascript engineer',
+  spec: 'frontend developer, Javascript engineer.',
   email: 'yemiotola@gmail.com',
   phone: '+234 811 977 5656',
   location: 'Lagos, Nigeria',
   image: 'yemiodetola.JPG',
   resume_desc: '',
-  hello: 'Front-end developer and javascript engineer. Delivering engaging and visually compelling applications with user-friendly interactions and experience. Sometimes, it actually does "work on my machine" alone. Working on my writing skills, I really fancy technical and general writing'
+  hello: 'I\'m a frontend developer and a javascript engineer. Delivering engaging and visually compelling applications with user-friendly interactions and experience. Sometimes, it actually does "work on my machine". My writing skills sucks, working on that.',
+  project_intro: 'Some shitty intro to what the actual fuck I can get done in record time...'
 }
 
 const experiences = [
@@ -62,18 +63,18 @@ const projects = [
   },
   {
     title: 'Masterminds',
-    description: 'A code-breaking game for two players. The codemaker, the other the codebreaker.',
+    description: 'A code-breaking game for two players. The codemaker, and the codebreaker.',
     image: 'mmind.jpg',
     url: 'https://mmind.surge.sh'
   },
   {
-    title: 'Medium clone (lite)',
+    title: 'Mclone',
     description: 'A clone of medium. including few basic features. CRUD articles, comments, follow/unfollow authors...',
     image: 'mclone.jpg',
     url: 'https://mclone.surge.sh'
   },
   {
-    title: 'CDASH admin',
+    title: 'CDASH (admin)',
     description: 'An asset/accounting management application for businesses.',
     image: 'cdashadmin.png',
     url: 'https://cashdapp.surge.sh'

@@ -6,7 +6,7 @@ export default function Iwrite() {
     <section className="iwrite section-spacing">
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12" id="blog">
             <div className="section-header">I write_</div>
             <div className="blogs">
               {iwrite.map(blog => (
