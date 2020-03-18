@@ -4,15 +4,27 @@ const profile = {
   email: 'yemiotola@gmail.com',
   phone: '+234 811 977 5656',
   location: 'Lagos, Nigeria',
-  image: 'yemiodetola.JPG'
+  image: 'yemiodetola.JPG',
+  resume_desc: '',
+  hello: 'Front-end developer and javascript engineer. Delivering engaging and visually compelling applications with user-friendly interactions and experience. Sometimes, it actually does "work on my machine" alone. Working on my writing skills, I really fancy technical and general writing'
 }
 
 const experiences = [
   {
     title: 'Stack Only',
     date: 'Aug 2019 - Present',
-    highlight: 'Frontend Lead. Creating and maintaining clients project'
-  }
+    highlight: 'Lead frontend. Building and maintaining scalable clients projects with Node, React, Angular, Vue...'
+  },
+  {
+    title: 'First Milcom Solutions',
+    date: 'Jan 2019 - Oct 2019',
+    highlight: 'Frontend engineer. Building robust and performant new features in an Agile environment, Built the official website,  Optimization of existing features, support planning, customer relations, and testing features. Core of the MOJEC COMS team.'
+  },
+  {
+    title: 'VConnect global services',
+    date: 'July 2018 - Dec 2018',
+    highlight: 'I work closely with experienced developers on the server and clients side of the company\'s products. Worked largely on "vconnect.com" as well as the cutomers onboarding on "VConnect business". Developed and maintained new products for the company.'
+  },
 ]
 
 const iwrite = [
@@ -28,12 +40,12 @@ const iwrite = [
 
 const reachme = [
   {
-    url: 'https://twitter.com/yemiOtola',
-    image: 'tweetme.png'
-  },
-  {
     url: 'mailto:yemiotola@gmail.com',
     image: 'mailto.png'
+  },
+  {
+    url: 'https://twitter.com/yemiOtola',
+    image: 'tweetme.png'
   },
   {
     url: 'https://instagram.com/yemiotola',
@@ -43,34 +55,40 @@ const reachme = [
 
 const projects = [
   {
-    title: 'Mastermind',
-    description: 'A code-breaking game for two players. The codemaker, the other the codebreaker.',
-    image: 'mmind.png'
+    title: 'MOJEC Meters',
+    description: 'Do you need a new meter, buy token, get your home surveyed for meter?... yes. right here!...fast and easy.',
+    image: 'mojecmeters.jpg',
+    url: 'https://mojecmeters.com'
   },
   {
     title: 'Masterminds',
     description: 'A code-breaking game for two players. The codemaker, the other the codebreaker.',
-    image: 'mmind.png'
+    image: 'mmind.jpg',
+    url: 'https://mmind.surge.sh'
   },
   {
-    title: 'Mastermindsssss',
-    description: 'A code-breaking game for two players. The codemaker, the other the codebreaker.',
-    image: 'mmind.png'
+    title: 'Medium clone (lite)',
+    description: 'A clone of medium. including few basic features. CRUD articles, comments, follow/unfollow authors...',
+    image: 'mclone.jpg',
+    url: 'https://mclone.surge.sh'
   },
   {
-    title: 'Mastermindss',
-    description: 'A code-breaking game for two players. The codemaker, the other the codebreaker.',
-    image: 'mmind.png'
+    title: 'CDASH admin',
+    description: 'An asset/accounting management application for businesses.',
+    image: 'cdashadmin.png',
+    url: 'https://cashdapp.surge.sh'
   },
   {
-    title: 'Mastermindsss',
-    description: 'A code-breaking game for two players. The codemaker, the other the codebreaker.',
-    image: 'mmind.png'
+    title: 'Artarck rc',
+    description: 'An ecommerce platform for arts. Sell, admire, buy and review arts. ',
+    image: 'artarck.jpg',
+    url: 'https://artarckrc.surge.sh'
   },
   {
-    title: 'Mastermindssss',
-    description: 'A code-breaking game for two players. The codemaker, the other the codebreaker.',
-    image: 'mmind.png'
+    title: 'Parableus',
+    description: 'Insightful proverbs, idioms and word-play from Africa. Quizzes inclisive.',
+    image: 'parableus.png',
+    url: 'https://parableus.ng'
   },
 ]
 

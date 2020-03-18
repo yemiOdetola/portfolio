@@ -14,10 +14,10 @@ export default function Projects() {
         <div className="row">
           {projects.map(project => (
             <div className="col-md-4" key={project.title}>
-              <a href="https://mmind.surge.sh" target="_blank" rel="noopener noreferrer">
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <div className="project">
                   <img className="image" src={require(`../assets/images/${project.image}`)} alt={project.title} />
-                  <div className="details">
+                  <div className="details slide-in">
                     <h3 className="title">{project.title}</h3>
                     <p className="description">{project.description}</p>
                   </div>

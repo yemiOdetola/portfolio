@@ -1,5 +1,5 @@
 import React from 'react';
-import { technologies, experiences } from '../constants/user';
+import { technologies, experiences, profile } from '../constants/user';
 
 export default function Experience() {
   return (
@@ -8,7 +8,7 @@ export default function Experience() {
         <div className="row">
           <div className="col-md-10">
             <div className="section-header">Resume_</div>
-            <p className="description">Some shitty intro to what the actual fuck I can get done in that firm and others...</p>
+            <p className="description">{profile.resume_desc}</p>
           </div>
         </div>
         <div className="row">
@@ -22,16 +22,6 @@ export default function Experience() {
                   <p className="block-highlight">{experience.highlight}</p>
                 </div>
               ))}
-              <div className="resume-block">
-                <div className="block-title">Stack only</div>
-                <div className="block-date">August 2019 - Present</div>
-                <p className="block-highlight">Full stack developer</p>
-              </div>
-              <div className="resume-block">
-                <div className="block-title">Stack only</div>
-                <div className="block-date">August 2019 - Present</div>
-                <p className="block-highlight">Full stack developer</p>
-              </div>
             </div>
           </div>
         </div>
