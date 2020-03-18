@@ -4,10 +4,10 @@ const profile = {
   email: 'yemiotola@gmail.com',
   phone: '+234 811 977 5656',
   location: 'Lagos, Nigeria',
-  image: 'yemiodetola.JPG',
+  image: 'profile.jpg',
   resume_desc: '',
   hello: 'I\'m a frontend developer and a javascript engineer. Delivering engaging and visually compelling applications with user-friendly interactions and experience. Sometimes, it actually does "work on my machine". My writing skills sucks, working on that.',
-  project_intro: 'Some shitty intro to what the actual fuck I can get done in record time...'
+  project_intro: 'Errrhhhhmmmm, I\'m still trying to make up what I\'ll put here 😕. Something a little not "time wasting" should be here by then. Please, go ahead and check out the little things I\'ve done od recent.'
 }
 
 const experiences = [
