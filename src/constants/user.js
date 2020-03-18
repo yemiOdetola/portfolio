@@ -4,10 +4,10 @@ const profile = {
   email: 'yemiotola@gmail.com',
   phone: '+234 811 977 5656',
   location: 'Lagos, Nigeria',
-  image: 'profile.jpg',
+  image: 'pp.jpg',
   resume_desc: '',
   hello: 'I\'m a frontend developer and a javascript engineer. Delivering engaging and visually compelling applications with user-friendly interactions and experience. Sometimes, it actually does "work on my machine". My writing skills sucks, working on that.',
-  project_intro: 'Errrhhhhmmmm, I\'m still trying to make up what I\'ll put here 😕. Something a little not "time wasting" should be here by then. Please, go ahead and check out the little things I\'ve done od recent.'
+  project_intro: 'Errrhhhhmmmm, I\'m still trying to make up what I\'ll put here 😕. Something a little not "time wasting" should be here soon. Please, go ahead and check out the little things I\'ve done of recent.'
 }
 
 const experiences = [
@@ -30,11 +30,11 @@ const experiences = [
 
 const iwrite = [
   {
-    url: 'https://linkedin.com/in.yemiodetola',
+    url: 'https://dev.to/blarcmann',
     image: 'devto.png'
   },
   {
-    url: 'https://linkedin.com/in.yemiodetola',
+    url: 'https://medium.com/@yemiotola',
     image: 'medium.png'
   },
 ]

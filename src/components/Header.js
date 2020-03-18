@@ -3,6 +3,7 @@ import { profile } from '../constants/user';
 import NavBar from './NavBar';
 // Banner-bg by Jared Brashier on Unsplash
 export default function Header() {
+  console.log(profile);
   return (
     <header className="header">
       <NavBar />
@@ -11,7 +12,7 @@ export default function Header() {
           <div className="row">
             <div className="col-md-4">
               <div className="profile-img">
-                <img src={require(`../assets/images/${profile.image}`)} alt="" />
+                <img src={require(`../assets/images/pp.jpg`)} alt="" />
               </div>
             </div>
             <div className="col-md-8">
