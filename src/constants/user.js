@@ -6,7 +6,7 @@ const profile = {
   location: 'Lagos, Nigeria',
   image: 'pp.jpg',
   resume_desc: '',
-  hello: 'I\'m a frontend developer and a javascript engineer. Delivering engaging and visually compelling applications with user-friendly interactions and experience. Sometimes, it actually does "work on my machine".',
+  hello: 'I\'m a frontend developer and a javascript engineer. Delivering engaging and visually compelling applications with user-friendly interactions and experience. Sometimes, it actually does "work on my machine"',
   project_intro: 'Errrhhhhmmmm, I\'m still trying to make up what I\'ll put here 😕. Something a little not "time wasting" should be here soon. Please, go ahead and check out the little things I\'ve done of recent.'
 }
 
